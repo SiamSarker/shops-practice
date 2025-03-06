@@ -1,12 +1,12 @@
 after clone, follow this
 
-cp .env.docker .env
-docker-compose up -d --build
-docker exec -it laravel-app bash
-composer update
-php artisan key:generate
-php artisan migrate --seed
-exit
+cp .env.docker .env<br>
+docker-compose up -d --build<br>
+docker exec -it laravel-app bash<br>
+composer update<br>
+php artisan key:generate<br>
+php artisan migrate --seed<br>
+exit<br>
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
